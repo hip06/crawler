@@ -1,0 +1,5 @@
+1. Cấu trúc file
+- browser.js: khởi động trình duyệt và trả về 1 instance browser
+- pageController.js: trả về 1 hàm scrape tổng, có nhiều hàm con gọi hàm scrape ở pageScrape.js lấy data rồi lưu ở file json
+- index.js: import instance browser của browser.js và hàm scrape của pageController.js => gọi hàm scrape với đối số là instance browser
+- pageScrape: 1 object có url và hàm scrape theo category và browser
